@@ -19,16 +19,16 @@
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a>
 </p>
 
-## Install
+## Install ##
 
-### Recommended Install
+### Recommended Install ###
 
 Download the latest version of WebTorrent Desktop from
 [the official website](https://webtorrent.io/desktop/):
 
-### [✨ Download WebTorrent Desktop ✨](https://webtorrent.io/desktop/)
+### [✨ Download WebTorrent Desktop ✨](https://webtorrent.io/desktop/) ###
 
-### Advanced Install
+### Advanced Install ###
 
 - Download specific installer files from the [GitHub releases](https://github.com/webtorrent/webtorrent-desktop/releases) page.
 
@@ -41,16 +41,16 @@ Download the latest version of WebTorrent Desktop from
 - Try the (unstable) development version by cloning the Git repository. See the
   ["How to Contribute"](#how-to-contribute) instructions.
 
-## Screenshots
+## Screenshots ##
 
 <p align="center">
   <img src="https://webtorrent.io/img/screenshot-player3.png" alt="screenshot" align="center">
   <img src="https://webtorrent.io/img/screenshot-main.png" width="612" height="749" alt="screenshot" align="center">
 </p>
 
-## How to Contribute
-
-### Get the code
+## How to Contribute ##
+ 
+### Get the code ###
 
 ```
 $ git clone https://github.com/webtorrent/webtorrent-desktop.git
@@ -58,13 +58,13 @@ $ cd webtorrent-desktop
 $ npm install
 ```
 
-### Run the app
+### Run the app ###
 
 ```
 $ npm start
 ```
 
-### Watch the code
+### Watch the code ###
 
 Restart the app automatically every time code changes. Useful during development.
 
@@ -72,13 +72,13 @@ Restart the app automatically every time code changes. Useful during development
 $ npm run watch
 ```
 
-### Run linters
+### Run linters ###
 
 ```
 $ npm test
 ```
 
-### Run integration tests
+### Run integration tests ###
 
 ```
 $ npm run test-integration
@@ -104,7 +104,7 @@ For Windows, you'll need Windows 10 with a 1366x768 screen.
 When running integration tests, keep the mouse on the edge of the screen and don't touch the mouse
 or keyboard while the tests are running.
 
-### Package the app
+### Package the app ###
 
 Builds app binaries for Mac, Linux, and Windows.
 
@@ -135,7 +135,7 @@ The following optional arguments are available:
 Note: Even with the `--package` option, the auto-update files (.nupkg for Windows,
 -darwin.zip for Mac) will always be produced.
 
-#### Windows build notes
+#### Windows build notes ###
 
 The Windows app can be packaged from **any** platform.
 
@@ -152,11 +152,11 @@ brew install wine mono
 
 (Requires the [Homebrew](http://brew.sh/) package manager.)
 
-#### Mac build notes
+#### Mac build notes ###
 
 The Mac app can only be packaged from **macOS**.
 
-#### Linux build notes
+#### Linux build notes ###
 
 The Linux app can be packaged from **any** platform.
 
@@ -165,7 +165,7 @@ If packaging from Mac, install system dependencies with Homebrew by running:
 ```
 npm run install-system-deps
 ```
-#### Recommended readings to start working in the app
+#### Recommended readings to start working in the app ###
 
 Electron (Framework to make native apps for Windows, OSX and Linux in Javascript):
 https://electronjs.org/docs/tutorial/quick-start
@@ -176,7 +176,7 @@ https://reactjs.org/docs/getting-started.html
 Material UI (React components that implement Google's Material Design.):
 https://material-ui.com/getting-started/installation
 
-### Privacy
+### Privacy ###
 
 WebTorrent Desktop collects some basic usage stats to help us make the app better.
 For example, we track how well the play button works. How often does it succeed?
@@ -185,6 +185,6 @@ Time out? Show a missing codec error?
 The app never sends any personally identifying information, nor does it track which
 torrents you add.
 
-## License
+## License ##
 
 MIT. Copyright (c) [WebTorrent, LLC](https://webtorrent.io).
